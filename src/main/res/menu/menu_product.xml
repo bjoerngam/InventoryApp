@@ -1,0 +1,33 @@
+<!-- Options menu for the EditorActivity -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ProductActivity">
+
+    <item
+        android:id="@+id/action_sell"
+        android:title="@string/action_sell"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_order_mail"
+        android:title= "@string/action_order_mail"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_order_phone"
+        android:title="@string/action_order_phone"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_save"
+        android:title="@string/action_save"
+        android:icon="@drawable/ic_done_black"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/action_delete"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="ifRoom"/>
+
+</menu>

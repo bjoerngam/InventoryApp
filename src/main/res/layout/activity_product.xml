@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_product"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/fab_margin"
+    android:orientation="vertical"
+    tools:context=".ProductActivity">
+
+    <ImageView
+        android:id="@+id/imageBig"
+        android:contentDescription="@string/image_big_Description"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_size_big"
+        android:scaleType="centerCrop" />
+
+    <!-- Product Name Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/productname_textview"/>
+
+        <EditText
+            android:id="@+id/productName_detail"
+            style="@style/EditorFieldStyle"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:hint="@string/productname_hint"/>
+      </LinearLayout>
+
+    <!-- Product Quantity Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/productquantity_textview"/>
+
+        <EditText
+            android:id="@+id/productQuantity_detail"
+            style="@style/EditorFieldStyle"
+            android:inputType="numberDecimal"
+            android:maxLines="1"
+            android:hint="@string/productquantity_hint"/>
+    </LinearLayout>
+
+    <!-- Product Price Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/productprice_textview"/>
+
+        <EditText
+            android:id="@+id/productPrice_detail"
+            style="@style/EditorFieldStyle"
+            android:inputType="numberDecimal"
+            android:maxLines="1"
+            android:hint="@string/productprice_hint"
+            />
+    </LinearLayout>
+
+    <!-- Supplier Phone Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/supplier_phonenumber_textview"/>
+
+        <EditText
+            android:id="@+id/supplierPhoneNumber"
+            style="@style/EditorFieldStyle"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:hint="@string/supplier_phonenumber_hint"/>
+    </LinearLayout>
+
+    <!-- Supplier Mail Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/supplier_mailaddress_textview"/>
+
+        <EditText
+            android:id="@+id/supplierMailAddress"
+            style="@style/EditorFieldStyle"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:hint="@string/supplier_mailaddress_hint"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="?android:attr/buttonBarStyle"
+        android:paddingTop="@dimen/small_top">
+
+        <Button
+            android:id="@+id/btPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/button_photo_add" />
+
+
+        <Button
+            android:id="@+id/btSell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/action_sell" />
+
+        <Button
+            android:id="@+id/addQuantityButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/button_add_product"/>
+    </LinearLayout>
+
+</LinearLayout>

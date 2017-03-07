@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- general app strings -->
+    <string name="app_name">InventoryApp</string>
+
+    <!-- activity_product.xml -->
+    <string name="productname_textview">Product Name:</string>
+    <string name="productquantity_textview">Product Quantity:</string>
+    <string name="productprice_textview">Producte Price:</string>
+    <string name="productname_hint">Productname</string>
+    <string name="productquantity_hint">Productquantity</string>
+    <string name="productprice_hint">Productprice</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_sell">Sell</string>
+    <string name="action_order_mail">Order via Mail</string>
+    <string name="action_order_phone">Order via phone</string>
+    <string name="delete_everything_failed">Cannot delete the complete inventory.</string>
+    <string name="delete_everything_done">Everything was remove from the inventory.</string>
+    <string name="delete_single_product">Do you really want to delete this product?</string>
+    <string name="delete_single_product_cancel">Cancel</string>
+    <string name="delete_single_product_okay">Okay</string>
+    <string name="delete_single_product_success_message">The selected item was remove.</string>
+    <string name="delete_single_product_failure_message">The selected item was not remove.</string>
+    <string name="add_a_new_product">Add a new product</string>
+    <string name="edit_a_product">Edit a product</string>
+    <string name="button_photo_add">Add Photo</string>
+    <string name="button_photo_change">Change Photo</string>
+    <string name="supplier_phonenumber_textview">Phonenumber:</string>
+    <string name="supplier_phonenumber_hint">0123&#8211;123456789</string>
+    <string name="supplier_mailaddress_textview">E-Mail Address:</string>
+    <string name="supplier_mailaddress_hint">mail@address</string>
+    <string name="supplier_no_contact_information">No contact information for the customer are set.</string>
+    <string name="button_decrease_quantity">Remove</string>
+    <string name="button_increase_quantity">Add</string>
+    <string name="select_photo_dialog">Select a photo</string>
+    <string name="image_big_Description">Big Product photo</string>
+    <string name="button_add_product">Add quantity</string>
+    <string name="unsaved_dialog">Do you really wanne quit, without saving the change.</string>
+    <string name="unsaved_dialog_discard">Discard</string>
+    <string name="unsaved_dialog_keep">Keep on editing</string>
+    <string name="insert_product_cannot">Cannot insert a new product</string>
+    <string name="insert_product">Insert a new product</string>
+    <string name="stock_error">Your stock is empty.</string>
+    <string name="sell_error">Error during selling a product.</string>
+    <string name="sell_okay">Product was sold.</string>
+    <string name="phone_error">No phone number was set.</string>
+    <string name="permission_set">Permission Granted!</string>
+    <string name="permission_notset">Permission Denied!</string>
+    <string name="mail_not_set">Setup the mail address</string>
+    <string name="add_error">Error during adding a product.</string>
+    <string name="add_okay">Product was added.</string>
+    <string name="error_save_product">You have to enter at least the product name.</string>
+
+
+    <!-- activityoverview.xml -->
+    <string name="empty_screen_text">Currently no items at the stocks.</string>
+    <string name="action_delete_all_items">Delete all items</string>
+    <string name="action_about">About</string>
+    <string name="about_dialog_message">Inventory App Version 0.1</string>
+    <string name="about_dialog_okay_button">Okay</string>
+    <string name="delete_dialog_message">Do you really want to remove every item of your stock?</string>
+    <string name="delete_dialog_okay">Okay</string>
+    <string name="delete_dialog_cancel">Cancel</string>
+    <string name="product_name">Product</string>
+    <string name="empty_screen_image">Background image</string>
+
+</resources>
